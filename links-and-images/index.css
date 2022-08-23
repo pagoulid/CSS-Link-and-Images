@@ -1,0 +1,53 @@
+
+.container{
+    width:70%;
+    margin:auto;
+    background-color: aquamarine;
+    box-shadow:2px 2px 5px 0.5px black;
+}
+
+h1{
+    text-align:center;
+}
+
+/*Links*/
+.container-links{
+    display:block;
+    text-align: center;
+}
+
+ .container-links a{
+    
+    font-size:4rem;
+    font-weight: bold;
+    margin-left:5px;
+    color:blue;
+}
+
+/*Links*/
+
+/*Image*/
+ .container-img{
+    
+    margin-top:2rem;
+}
+
+/*Image*/
+
+/*Media queries*/
+@media screen and (max-width:715px){
+    /*resize to not overflow from container*/
+
+    .container-links a{
+        font-size:2rem;
+    }
+
+    
+    .container-img{
+        width:60%;
+        height:80%;
+        
+    }
+}
+
+/*Media queries*/

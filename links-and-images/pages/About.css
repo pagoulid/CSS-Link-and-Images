@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    margin:auto;
+    padding:auto;
+    width:60%;
+    background-color: aquamarine;
+    box-shadow:2px 2px 5px 0.5px black;
+}
+
+p{
+    margin-top:1rem;
+}
