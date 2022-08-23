@@ -40,5 +40,9 @@
     padding-top:0.5rem;
     padding-left: 5rem;
 }
+
+.container-img img{
+    border-radius: 10%;
+}
 /*Image*/
 
