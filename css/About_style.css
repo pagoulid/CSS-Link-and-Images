@@ -37,3 +37,24 @@ h1{
     font-weight:bolder;
 }
 /*Content*/
+/*Animate arrow for back button*/
+.container-link{
+    color: blue;
+    margin-top: 3rem;
+    /*Does not read margin-top*/
+    margin-left: 1rem;
+    
+}
+.arrow {
+    border: solid blue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+ 
+/*Animate arrow for back button*/
