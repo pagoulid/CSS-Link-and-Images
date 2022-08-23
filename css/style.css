@@ -1,32 +1,44 @@
 /* Project Link : https://pagoulid.github.io/CSS-Link-and-Images/ */
 .container{
     width:70%;
+    height:94vh;
     margin:auto;
+    
     background-color: aquamarine;
+    border: 4px solid greenyellow;
     box-shadow:2px 2px 5px 0.5px black;
-}
-h1{
-    text-align:center;
 }
 /*Links*/
 .container-links{
-    display:block;
+    width:60%;
     text-align: center;
+    margin:0 auto;
+    background-color: rgb(10, 224, 252);
+    border:8px groove slategray;   
+}
+.container-links .links-item{
+    border:4px groove lightgray; 
+                
 }
  .container-links a{
-    
+    display:block;
+    font-family: Alumni Sans Pinstripe;
     font-size:4rem;
     font-weight: bold;
     margin-left:5px;
     color:blue;
+    text-decoration: none; 
+    cursor:crosshair;
 }
-/*Links*/
+/*Bug on text decoration : sth to do with -webkit-link*/
 
+/*Links*/
 /*Image*/
  .container-img{
-    
-    margin-top:2rem;
+    width:40%;
+    margin:0 auto;
+    padding-top:0.5rem;
+    padding-left: 5rem;
 }
-
 /*Image*/
 
